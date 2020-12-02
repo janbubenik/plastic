@@ -1,0 +1,122 @@
+/* Global styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Global components */
+
+.container {
+  min-height: 85vh;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 15rem;
+  color: #fffffe;
+  letter-spacing: 0.5rem;
+  line-height: 1.1;
+}
+
+h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 7rem;
+  color: #af1e4d;
+  letter-spacing: 0.5rem;
+}
+
+h4 {
+  font-family: "Anton", sans-serif;
+  font-size: 3rem;
+  color: #af1e4d;
+  letter-spacing: 0.5rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #fffffe;
+  font-weight: 300;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  background-color: #000000;
+  border-radius: 0;
+  border: 0;
+  padding: 2rem 5rem;
+  letter-spacing: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.row {
+  min-width: 0px;
+}
+
+/* Header section */
+#header {
+  background-image: url("/img/01_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#hero-img {
+  position: absolute;
+  bottom: 0rem;
+  left: 10rem;
+}
+
+/* About section */
+#about {
+  background-image: url("/img/02_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Work section */
+#work {
+  background-image: url("/img/01_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.img-work {
+  width: 50rem;
+  height: auto;
+}
+
+/* Technology section */
+#technology {
+  background-image: url("/img/02_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Team section */
+#team {
+  background-image: url("/img/01_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.img-team {
+  width: 30rem;
+  height: auto;
+}

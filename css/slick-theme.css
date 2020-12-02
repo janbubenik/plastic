@@ -1,0 +1,125 @@
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list {
+  background: #fff url("/fonts/ajax-loader.gif") center center no-repeat;
+}
+
+/* Icons */
+@font-face {
+  font-family: "slick";
+  font-weight: normal;
+  font-style: normal;
+
+  src: url("/fonts/slick.eot");
+  src: url("/fonts/slick.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/slick.woff") format("woff"),
+    url("/fonts/slick.ttf") format("truetype"),
+    url("/fonts/slick.svg#slick") format("svg");
+}
+
+/* Dots */
+.slick-dotted.slick-slider {
+  margin-bottom: 3rem;
+}
+
+.slider-header .slick-dots {
+  text-align: right;
+}
+
+.slider-about .slick-dots {
+  text-align: right;
+  bottom: -10rem;
+}
+
+.slider-work .slick-dots {
+  text-align: left;
+  bottom: -7rem;
+}
+
+.slider-technology .slick-dots {
+  text-align: right;
+  bottom: -10rem;
+  left: 40rem;
+}
+
+.slider-team .slick-dots {
+  text-align: left;
+  bottom: -7rem;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -20rem;
+
+  display: block;
+
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+
+  text-align: center;
+}
+.slick-dots li {
+  position: relative;
+
+  display: inline-block;
+
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1.5rem;
+  padding: 0;
+
+  cursor: pointer;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+
+  display: block;
+
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+
+  cursor: pointer;
+
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 2rem;
+  height: 2rem;
+
+  content: "•";
+  text-align: center;
+
+  opacity: 0.5;
+  color: #cfcfcf;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #ffffff;
+}
