@@ -112,21 +112,31 @@
     font-size: 2rem;
     text-align: center;
   }
-  .slick-dots {
+  .slick-dots li button {
     display: none;
   }
   .work-heading {
     position: unset;
     font-size: 10rem;
   }
+  .team-heading {
+    position: unset;
+    font-size: 10rem;
+  }
+  .img-work {
+    margin: 0 auto;
+    display: block;
+  }
+  .img-team {
+    margin: 0 auto;
+    padding-top: 5rem;
+    display: block;
+  }
   h3 {
     display: none;
   }
   .slider-header .slick-dots {
     display: none;
-  }
-  #work {
-    min-height: 160vh;
   }
 }
 
@@ -135,11 +145,16 @@
     width: 30rem;
   }
   .work-heading {
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;
   }
+  .team-heading {
+    font-size: 5rem;
+    text-align: center;
+  }
+
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: center;
   }
   p {
